@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Git Git Git</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/git.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg text-uppercase fixed-top bg-dark" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Débuter avec GIT</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#git">Commandes GIT</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#github">GitHub</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#vsc">Visual Studio Code</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3 px-0 px-lg-3 rounded bg-dark" href="#token">
+                          
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/git.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Débuter avec GIT</h1>
+                <!-- Icon Divider-->
+                <br>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <br>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Réaliser par Aurélien B et Arnaud B</p>
+                <p>Aucun droit n'est reservé<p>
+                    <div class="text-center mt-4">
+                        <a class="btn btn-xl btn-outline-light" href="https://github.com/tutur-the-chopp/Site-git-AB-AB.git" target="_blank">
+                            <i class="fas fa-download me-2"></i>
+                            Lien vers notre dépôt GitHub
+                        </a>
+                    </div>
+            </div>
+       
+        
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="git">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Commandes GIT</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+        </br>
+        <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-dark" href="#token">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                
+            &ensp; <strong>Création d'un token</strong>
+            </a>
+        </div>
+
+            
+
+            
+ 
+        </section>
+        
+
+        <!-- GitHub Section-->
+        <section class="page-section bg-primary text-white mb-0" id="github">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">GitHub</h2>
+                
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+            </br>
+
+                <h3 class="gitInfo">Cliquez sur les images pour plus d'informations </h3>
+            </br></br></br>
+                <!-- Capture d'écran-->
+                
+            <div class="grid-container">
+                <div class="row">
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/1.png" onclick="openModal('modal1')">
+                    </div>
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/6.png" onclick="openModal('modal2')">
+                    </div>
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/10.png" onclick="openModal('modal3')">
+                    </div>
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/15.png" onclick="openModal('modal4')">
+                    </div>
+                </div>
+            </br>
+            </br>
+                <div class="row">
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/17.png" onclick="openModal('modal5')">
+                    </div>
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/19.png" onclick="openModal('modal6')">
+                    </div>
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/21.png" onclick="openModal('modal7')">
+                    </div>
+                    <div class="grid-item col-lg-3">
+                        <img class="imageGit" src="assets/img/github/31.png" onclick="openModal('modal8')">
+                    </div>
+                </div>
+            </div>
+        </br></br></br>
+
+
+
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal1')">&times;</span>
+                      <center>
+                      <h2>Dépôt</h2>
+                      <br>
+                      <br>
+                      
+                      <p>Pour créer un nouveau dépôt il vous suffit de cliquer sur new :</p>
+                      
+                      <img class="depot w-25" src="assets/img/github/2.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p><span class="badge bg-primary badge-pill">1</span>&emsp;Entrez le nom de votre Dépot ainsi qu'une breve déscription</p>
+                      
+                      <img class="w-75" src="assets/img/github/3.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p><span class="badge bg-primary badge-pill">2</span>&emsp;Vous pouvez choisir si votre projet peut être vue par tout le monde ou non</p>
+                  
+                      <img class="w-75" src="assets/img/github/4.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p><span class="badge bg-primary badge-pill" >3</span>&emsp;Ajoutez un fichier "README" grâce a cela vous pourrez importez du code dans votre projet</p>
+                    
+                      <img class="w-75" src="assets/img/github/5.png" alt="">
+                  
+                    </center>
+                    </div>
+                </div>
+
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal2')">&times;</span>
+                      <center>
+                      <h2>Paramètres</h2>
+                      <br>
+                      <br>
+                      <p>Il y a beaucoup de fonctionnalités à voir dans les paramètres mais nous allons voir le partage de projet ou projet collaboratif</p>
+                      <br>
+                      <p>Pour ce faire, il suffit d'aller dans les réglages et de cliquer sur le bouton "Collaborators"</p>
+                      <img class="w-75" src="assets/img/github/7.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Suite à cela il faudra cliquer sur "Add people" </p>
+                      <img class="depot w-25" src="assets/img/github/8.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Après avoir fait ça, votre collaborateur aura accès à votre Projet tout comme vous</p>
+                      <img class="w-75" src="assets/img/github/9.png" alt="">
+                      
+                    </center>
+                    </div>
+                </div>
+
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                    
+                      <span class="close" onclick="closeModal('modal3')">&times;</span>
+                      <center>
+                      <h2>Code</h2>
+                      <br>
+                      <br>
+                      <p>La fonctionnalité "code" permet le partage de projet collaboratif</p>
+                      <img class="w-75" src="assets/img/github/11(1).png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Pour pouvoir ajouter du code, il suffit de cliquer sur "add file"</p>
+                      <img class="depot" src="assets/img/github/11.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Vous pourrez glisser votre dossier / fichier ou aller le chercher dans votre explorateur de fichier</p>
+                      <img class="w-75" src="assets/img/github/12.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Ce dernier apparait sous cette forme : </p>
+                      <img class="w-75" src="assets/img/github/13.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Si vous voulez télecharger votre code il vous suffira de cliquer sur "code"</p>
+                      <img class="depot" src="assets/img/github/33.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Vous pouvez également le télécharger de différentes manières :</p>
+                      <img class="w-75" src="assets/img/github/34.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Dans le cas d'un projet collaboratif, vous pourrez voir qui a fait des modifications et quand : </p>
+                      <img class="w-75" src="assets/img/github/14.png" alt="">
+                    </center>
+                    </div>
+                </div>
+
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal4')">&times;</span>
+                    <center>
+                      <h2>Issues</h2>
+                      <p>Le menu "Issues" dans GitHub est un outil de gestion de projet qui permet aux utilisateurs de signaler des problèmes, des bogues ou des demandes de fonctionnalités pour un projet. Il permet également aux membres de l'équipe du projet de suivre ces problèmes, de les trier par priorité, de les affecter à des membres spécifiques de l'équipe pour les résoudre, et de tenir les utilisateurs informés de l'état des problèmes.</p>
+                      <br>
+                      <p>Ce menu apparait sous cette forme :</p>
+                      <img src="assets/img/github/16.png" alt="">
+                    </center>
+                    </div>
+                </div>
+
+                <div id="modal5" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal5')">&times;</span>
+                    <center>
+                      <h2>Pull requests</h2>
+                      <p>Le menu "Pull Requests" dans GitHub est un outil de collaboration de code qui permet aux développeurs de proposer des modifications de code et de les soumettre pour examen et fusion dans le code principal du projet. Les pull requests permettent aux membres de l'équipe de discuter des modifications de code et de les réviser avant qu'elles ne soient fusionnées, ce qui permet de maintenir la qualité du code et d'éviter les conflits et les erreurs.</p>
+                      <br>
+                      <p>ce menu apparait sous cette forme :</p>
+                      <img src="assets/img/github/18.png" alt="">
+                    </center>
+                    </div>
+                </div>
+
+                <div id="modal6" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal6')">&times;</span>
+                    <center>
+                      <h2>Actions</h2>
+                      <p>Le menu "Actions" dans GitHub est un outil d'automatisation des tâches qui permet aux utilisateurs de créer et d'exécuter des workflows personnalisés pour leur projet. Les workflows d'actions peuvent inclure des tâches telles que la compilation de code, les tests de code, la génération de documentation et le déploiement de code sur des serveurs ou des services cloud. Les workflows peuvent être configurés pour s'exécuter automatiquement en réponse à des événements tels que des pull requests ou des modifications de code.</p>
+                      <br>
+                      <p>ce menu apparait sous cette forme :</p>
+                      <img src="assets/img/github/20.png" alt="">
+                    </center>
+                    </div>
+                </div>
+
+                <div id="modal7" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal7')">&times;</span>
+                    <center>
+                      <h2>Projet</h2>
+                      <br>
+                      <br>
+                      <p>Le menu "Projects" dans GitHub est un outil de gestion de projet qui permet aux développeurs de suivre les tâches, les problèmes et les fonctionnalités de leur projet. Les utilisateurs peuvent créer des tableaux Kanban pour organiser les tâches, suivre l'état des problèmes et des demandes de fonctionnalités, et collaborer avec d'autres membres de l'équipe.</p>
+                      <br>
+
+                      <p>Une fois cliquer sur le bouton "Projects" cette page apparait :</p>
+                      <img src="assets/img/github/22.png" alt="">
+                      
+                      <br>
+                      <br>
+                      <br>
+                      <p>Maintenant nous allons voir comment créer un projet</p>
+                      <p>En cliquant sur "Link a project" <img class="depot" src="assets/img/github/23.png" alt=""> cette page va apparaitre :</p>
+                      <img src="assets/img/github/24.png" alt="">
+                      <br>
+                      <br>
+                      
+                      <p>Une barre de recherche nous permet de chercher les projets deja existant et un bouton "Create new project" nous permet de crée un nouveau projet</p>
+                      <br>
+                      <br>
+                      <p>Un projet s'affiche de cette manière : </p>
+                      <img src="assets/img/github/25.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Plusieurs sections séparent les tâches pour pouvoir les classer</p>
+                      <p>Pour pouvoir ajouter une tâche on clique sur "Add item" <img class="depot" src="assets/img/github/26.png" alt=""></p>
+                      <p>Ce bouton ouvre ce formulaire ou l'on entre le nom de notre tâche</p>
+                      <img src="assets/img/github/27.png" alt="">
+                      <br>
+                      <br>
+                      <br>
+                      <p>Pour personnaliser une tache on clique sur son nom </p>
+                      <p>Cette page apparait </p>
+                      <img src="assets/img/github/28.png" alt="">
+                      <br>
+                      <br>
+                      <p>On peut y ajouter une description avec le bouton "Edit" <img src="assets/img/github/29.png" class="depot" alt=""></p>
+                      
+                    </center>
+                    </div>
+                </div>
+
+                <div id="modal8" class="modal">
+                    <div class="modal-content">
+                      <span class="close" onclick="closeModal('modal8')">&times;</span>
+                      <center>
+                      <h2>Sécurité</h2>
+                      <p>Le menu "Security" dans GitHub est un outil de sécurité qui permet aux développeurs de détecter les vulnérabilités et les menaces potentielles dans leur code et leurs dépendances.</p>
+                      <br>
+                      <p>ce menu apparait sous cette forme :</p>
+                      <img src="assets/img/github/32.png" alt="">
+                    </center>
+                    </div>
+                </div>
+
+        
+                <!-- vidéo en dessous  -->
+            
+
+                  
+                <!-- About Section Button-->
+                
+            </div>
+        </section>
+
+        
+        <!-- Contact Section-->
+        <section class="page-section" id="vsc">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Visual Studio Code</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+            </br>
+                <!-- About Section Content-->
+
+                <div class="row">
+                    <ul class="list-group col-lg-6 ">
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-primary border-4 bg-dark text-white">
+                            <center><p> Tout d'abord, il est important de noter que Visual Studio prend en charge l'intégration avec GitHub. 
+                                Cela signifie que les développeurs peuvent utiliser Visual Studio pour travailler sur leur code et le pousser directement sur GitHub.</p>
+                                 <p>De plus, Visual Studio offre une intégration transparente avec la fonctionnalité de contrôle de version Git de GitHub, ce qui facilite la gestion des versions de code.</p></center>
+                    </ul>
+                    <ul class="list-group col-lg-6 ">
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-primary border-4 bg-dark text-white">
+                            <center><p>Visual Studio est un IDE puissant qui offre une multitude de fonctionnalités pour améliorer la productivité des développeurs. Par exemple, il prend en charge les langages de programmation les plus courants, tels que C++, C#, Python, Java, etc.</p>
+                                 <p>Il dispose également de nombreuses fonctionnalités de débogage et de refactoring, ce qui facilite la correction des erreurs et la maintenance du code.</p> </center>
+                    </ul>
+                </div>
+
+        
+            
+            </br></br>
+                    
+
+                    <ul class="list-group col-lg-12 ">
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-primary border-4 bg-dark text-white fst-italic">
+                            <center><p>D'autre part, GitHub est une plate-forme de gestion de code source qui permet aux développeurs de stocker et de gérer leur code. GitHub prend en charge Git, un système de contrôle de version qui facilite la gestion des versions de code. GitHub offre également une multitude de fonctionnalités pour la collaboration, telles que des outils de suivi des problèmes, des commentaires de code et des revues de code. </p>
+
+                                <p>En combinant les fonctionnalités de Visual Studio et de GitHub, les développeurs peuvent bénéficier de la productivité de Visual Studio et de la collaboration de GitHub. Visual Studio facilite le développement de logiciels, tandis que GitHub facilite la gestion de code source et la collaboration entre les membres de l'équipe. </center> </p>
+                    </ul>
+            
+                </br>
+                    <div class="text-center mt-4">
+                        <a class="btn btn-xl btn-outline-primary btn-dark text-white border-3" href="https://code.visualstudio.com/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                                <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+                              </svg>
+        
+                        &ensp; <strong>Visual Studio</strong>
+                        </a>
+                    </div>
+           
+                
+            </div>
+        </section>
+
+
+
+        <section class="page-section bg-secondary"  id="token">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-light mb-0">Création Token</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line bg-white"></div>
+                    <div class="divider-custom-icon text-light"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line bg-white"></div>
+                </div>
+                <!-- Contact Section Form-->
+
+                <!-- About Section Content-->
+                <div class="row">
+                <ul class="list-group col-lg-5 ">
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                      Se rendre sur son profil GitHub
+                      <span class="badge bg-danger badge-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                      Aller dans "Settings"
+                      <span class="badge bg-danger badge-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                      Puis "Developer settings"
+                      <span class="badge bg-danger badge-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                        Cliquez sur "Personal access tokens"
+                        <span class="badge bg-danger badge-pill">4</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                        Puis "Generate new token"
+                        <span class="badge bg-danger badge-pill">5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                        Nommez votre Token, puis sélectionnez les autorisations
+                        <span class="badge bg-danger badge-pill">6</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                        Cliquez sur "Generate token"
+                        <span class="badge bg-danger badge-pill">7</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center border-dark">
+                        Copiez le jeton généré et conservez-le en sécurité
+                        <span class="badge bg-danger badge-pill">8</span>
+                      </li>
+                  </ul>
+                  
+                  <div class="col-lg-7 me-auto text-white"><p class="lead">Un token Github est donc un jeton d'authentification permettant d'effectuer des opérations avec votre compte Github sans avoir à saisir vos informations d'identifications à chaque fois. Les étapes à gauche sont les étapes à suivre pour en créer un.</p>
+                    <p class="lead">Une fois que vous avez généré un jeton Github, vous pouvez l'utiliser pour effectuer des opérations push/pull avec un référentiel Github. Pour cela, vous devez inclure votre jeton dans les URL de votre référentiel Github lors de l'exécution de commandes push/pull. Par exemple, si votre jeton est "abcdefg12345", vous pouvez utiliser la commande suivante pour pousser vers votre référentiel:
+
+                    <i><pre class="col-lg-11 border-white text-center text-white bg-dark text-capitalize">git push https://github.com/nom_utilisateur/referentiel.git?access_token=abcdefg12345 </pre></i>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer-->
+        <footer class="footer text-center bg-dark">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    
+                    <div class="col-lg-1 mb-5 mb-lg-0">
+                        <img id="liveshare" class="carreviolet" src="assets/img/Liveshare_anim1.png" alt="..." />
+                        <a href="https://code.visualstudio.com/learn/collaboration/live-share" target="_blank">
+                        <img id="liveshare" class="fleche" src="assets/img/Liveshare_anim2.png" alt="..." />
+                        </a>
+                    </div>
+                    
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <h2 class="text-uppercase mb-2">Live Share</h2>
+                        <p class="lead mb-2">
+                            Nous avons utilisés Liveshare pour travailler ensemble en co-édition, ce qui rend notre travail plus efficace, et plus rapide, ce module dispose également d'un chat textuel permettant de communiquer à distance.
+                        </p>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-5">
+                        <h4 class="text-uppercase mb-2">Les avantages de Liveshare</h4>
+                        
+                        <p class="lead mb-0">
+                            
+                                    <li>Collaboration en temps réel</li>
+                                    <li>Partage de fichiers</li>
+                                    <li>Partage de sessions de débogage</li>
+                                    <li>Suivi des modifications</li>
+                                    <li>Support multiplateforme</li>
+                                  
+                          
+                        </p>
+
+                        
+                        
+                    </div>
+                </div>     
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white bg-black">
+            <div class="container"><small>Copyright &copy; Site Aurelien et Arnaud</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Utilisateur</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-2"><u>Configuration du nom de l'utilisateur:</u> <pre>"git config --global user.name "Aurelien Blanchet""</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Configuration de l'adresse e-mail</u> <pre>"git config --global user.email "aurelien.blanchet74@gmail.com""</pre> </p>
+                                </br>
+                                    <button class="btn btn-danger mb-2" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer le fenêtre
+                                    </button>
+                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                   
+                                    <a class="btn btn-primary mb-2" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html"><i class="fa-solid fa-wand-magic-sparkles"></i> &ensp;Plus d'infos</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Branches</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-2"><u>Créer une nouvelle branche et basculer dessus:</u> <pre>"git checkout -b &lt;nom de la branche&gt;"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Passer d'une branche à l'autre:</u> <pre>"git checkout &lt;nom de la branche&gt;"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Afficher la liste des branches du dépôt et celle dans laquelle vous êtes:</u> <pre>"branche git"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Supprimer la branche de fonctionnalités:</u> <pre>"git branch -d &lt;nom de la branche&gt;"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Mettre une branche vers le dépôt distant</u> <pre>"git push origin &lt;nom de la branche&gt;"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Mettre toutes les branche vers le dépôt distant:</u> <pre>"git push --all origin &lt;nom de la branche&gt;"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Supprimer une branche de votre dépôt:</u> <pre>"git push origin : &lt;nom de la branche&gt;"</pre> </p>
+                                </br>
+                                    
+
+                                    <button class="btn btn-danger mb-2" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer le fenêtre
+                                    </button>
+                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                   
+                                    <a class="btn btn-primary mb-2" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html"><i class="fa-solid fa-wand-magic-sparkles"></i> &ensp;Plus d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MAJ Dépôt</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-2"><u>Récuperer et fusionner les modifications sur le serveur distant du dépôt:</u> <pre>"git pull"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Fusionner une branche différente dans votre branche:</u> <pre>"git merge &lt;nom de la branche&gt;"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Afficher les conflits de fusion:</u> <pre>"git diff"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Afficher les conflits avec le fichier de base:</u> <pre>"git diff --base &lt;nom du fichier&gt; "</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Visualiser les modifications avant la fusion:</u> <pre>"git diff &lt;branche source&gt; &lt;branche cible&gt; "</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Marquer le fichier modifié après résolution des conflits:</u> <pre>"git add &lt;nom du fichier&gt; "</pre> </p>
+                                </br>
+                                    <button class="btn btn-danger mb-2" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer le fenêtre
+                                    </button>
+                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                   
+                                    <a class="btn btn-primary mb-2" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html"><i class="fa-solid fa-wand-magic-sparkles"></i> &ensp;Plus d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dépôt</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-2"><u>Créer un nouveau dépôt local:</u> <pre>"git init"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Créer une copie d'un dépôt:</u> <pre>"git clone /chemin/vers/dépôt"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Créer une copie d'un dépôt:</u> <pre>"git clone /chemin/vers/dépôt"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Pour un serveur distant utilisez:</u> <pre>"git clone username@host:/chemin/vers/dépôt"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Ajouter un ou plusieurs fichier(s) à l'index</u> <pre>"git add &lt;nom du fichier&gt;" ou "git add *"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Valider les modifications (pas encore dans le dépôt distant):</u> <pre>"git commit -m "Message de validation"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Valider tout les fichiers ajoutés avec "git add":</u> <pre>"git commit -a"</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Répertorier les fichiers modifiés ceux en cours de validation:</u> <pre>"statut git"</pre> </p>
+                                </br>
+                                    <button class="btn btn-danger mb-2" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer le fenêtre
+                                    </button>
+                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                   
+                                    <a class="btn btn-primary mb-2" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html"><i class="fa-solid fa-wand-magic-sparkles"></i> &ensp;Plus d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Annuler</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-2"><u>Remplacer les changements dans l'arbre de travail par le contenu de "head":</u> <pre>"git checkout -- &lt;nom du fichier&gt; "</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Supprimer tout les changements et récuperer le dernier historique du serveur:</u> <pre> 1. "git fetch origin"</pre> </p>
+                                    <p class="mb-2"><pre>2. "git reset --hard origin/master"</pre> </p>
+                                </br>
+                                    <button class="btn btn-danger mb-2" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer le fenêtre
+                                    </button>
+                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                   
+                                    <a class="btn btn-primary mb-2" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html"><i class="fa-solid fa-wand-magic-sparkles"></i> &ensp;Plus d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tags</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-2"><u>Utiliser des balises pour marquer un ensemble de modifications:</u> <pre>"balise git 1.0.0 &lt;commitID&gt; "</pre> </p>
+                                </br>
+                                    <p class="mb-2"><u>Transférer toutes les balises vers le dépôt distant:</u> <pre>"git push --tags origin"</pre> </p>
+                                </br>
+                                    <button class="btn btn-danger mb-2" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer le fenêtre
+                                    </button>
+                                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                   
+                                    <a class="btn btn-primary mb-2" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html"><i class="fa-solid fa-wand-magic-sparkles"></i> &ensp;Plus d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
+    </body>
+</html>
